@@ -1,0 +1,85 @@
+# Opportunity Scoring Rubric (0-100 scale)
+# Customize categories, criteria, and weights to match your strategic priorities
+# All category weights must sum to 1.0
+# All criteria weights within each category must sum to 1.0
+
+scoring:
+  market_opportunity:                     # Category name (customizable)
+    weight: 0.25                          # Float, range: 0.0-1.0 (sum of all weights must = 1.0)
+    description: "Market size, growth potential, and customer pain points"
+    criteria:                             # Sub-criteria within category
+      - name: "tam_sam_som"
+        weight: 0.4                       # Float, range: 0.0-1.0 (sum must = 1.0 within category)
+        description: "Total Addressable Market, Serviceable Market, Obtainable Market sizing"
+      - name: "growth_rate"
+        weight: 0.3
+        description: "Market growth rate and trajectory (CAGR)"
+      - name: "customer_pain"
+        weight: 0.3
+        description: "Severity and frequency of customer pain points"
+
+  technical_feasibility:
+    weight: 0.25
+    description: "Technical readiness, team capability, and implementation risk"
+    criteria:
+      - name: "technology_readiness"
+        weight: 0.4
+        description: "Technology maturity (TRL), availability of components"
+      - name: "team_capability"
+        weight: 0.3
+        description: "Team skills, experience, and capacity"
+      - name: "risk_level"
+        weight: 0.3
+        description: "Technical risks and mitigation strategies"
+
+  competitive_advantage:
+    weight: 0.20
+    description: "Differentiation and defensibility of solution"
+    criteria:
+      - name: "differentiation"
+        weight: 0.5
+        description: "Unique value proposition vs. competitors"
+      - name: "moat_strength"
+        weight: 0.5
+        description: "Barriers to entry, IP protection, network effects"
+
+  execution_readiness:
+    weight: 0.15
+    description: "Timeline, investment requirements, and partnership opportunities"
+    criteria:
+      - name: "timeline"
+        weight: 0.3
+        description: "Time to market feasibility"
+      - name: "investment"
+        weight: 0.3
+        description: "Capital requirements vs. available resources"
+      - name: "partnerships"
+        weight: 0.4
+        description: "Required partnerships and their availability"
+
+  regulatory_pathway:
+    weight: 0.15
+    description: "Regulatory clarity, precedents, and certification timeline"
+    criteria:
+      - name: "clarity"
+        weight: 0.4
+        description: "Regulatory framework clarity and stability"
+      - name: "precedents"
+        weight: 0.3
+        description: "Existing precedents and case studies"
+      - name: "timeline"
+        weight: 0.3
+        description: "Certification and approval timeline"
+
+thresholds:                               # Score thresholds for go/no-go decision
+  strong_go: 80                           # Integer, range: 0-100 - Strong recommendation to proceed
+  go: 65                                  # Integer - Proceed with confidence
+  conditional_go: 50                      # Integer - Proceed with caution, address risks
+  no_go: 50                               # Integer - Scores below this are "no go"
+
+# Scoring Guidelines (0-100 for each criterion):
+# 90-100: Exceptional - Market-leading position, minimal risk
+# 70-89:  Strong - Clear advantage, manageable risks
+# 50-69:  Moderate - Viable but requires significant effort
+# 30-49:  Weak - Major challenges, questionable viability
+# 0-29:   Poor - Fundamental issues, not recommended

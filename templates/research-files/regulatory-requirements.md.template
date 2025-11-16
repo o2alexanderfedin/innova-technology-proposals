@@ -1,0 +1,119 @@
+# Regulatory Requirements Analysis
+
+**Sprint**: {{SPRINT_ID}} - {{SPRINT_NAME}}
+**Task**: 01 - Technical & Regulatory Landscape
+**Date**: {{DATE}}
+**Author**: technical-researcher skill
+
+---
+
+## Executive Summary
+
+[2-3 paragraph summary of regulatory landscape, key requirements, and implications for the opportunity]
+
+## Key Findings
+
+- **Finding 1**: [Major regulatory requirement or consideration]
+- **Finding 2**: [Key certification pathway or approval process]
+- **Finding 3**: [Recent regulatory changes or proposed rules]
+- **Finding 4**: [Regulatory precedents or case studies]
+- **Finding 5**: [Compliance timeline and complexity]
+
+## Regulatory Framework
+
+### Governing Bodies
+
+[Identify primary regulatory agencies]
+
+- **Agency 1**: [Name, jurisdiction, role]
+- **Agency 2**: [Name, jurisdiction, role]
+
+### Applicable Regulations
+
+#### Regulation 1: [Name and Number]
+- **Scope**: [What it covers]
+- **Requirements**: [Key requirements relevant to this opportunity]
+- **Compliance Pathway**: [How to demonstrate compliance]
+- **Timeline**: [Typical approval timeline]
+- **Citation**: [Source]
+
+#### Regulation 2: [Name and Number]
+- **Scope**: [What it covers]
+- **Requirements**: [Key requirements relevant to this opportunity]
+- **Compliance Pathway**: [How to demonstrate compliance]
+- **Timeline**: [Typical approval timeline]
+- **Citation**: [Source]
+
+### Recent Regulatory Changes
+
+[Document any recent or proposed regulatory changes that may impact this opportunity]
+
+### Regulatory Precedents
+
+[Identify similar products/services that have been approved, with timeline and process]
+
+## Compliance Strategy
+
+### Required Certifications
+
+1. **Certification Name**: [Description, requirements, timeline]
+2. **Certification Name**: [Description, requirements, timeline]
+
+### Documentation Requirements
+
+- [List of required documentation]
+- [Submission requirements]
+- [Review process]
+
+### Testing and Validation
+
+- [Required tests]
+- [Approved testing facilities]
+- [Validation criteria]
+
+## Risk Assessment
+
+### Regulatory Risks
+
+- **Risk 1**: [Description and likelihood]
+- **Risk 2**: [Description and likelihood]
+
+### Mitigation Strategies
+
+- **Mitigation 1**: [How to address risk 1]
+- **Mitigation 2**: [How to address risk 2]
+
+## Timeline and Cost Estimates
+
+### Compliance Timeline
+- **Phase 1**: [Description] - [Duration]
+- **Phase 2**: [Description] - [Duration]
+- **Total**: [Total estimated timeline]
+
+### Cost Estimates
+- **Certification Costs**: [Estimate]
+- **Testing Costs**: [Estimate]
+- **Consulting/Legal**: [Estimate]
+- **Total**: [Total estimated cost]
+
+## Implications for Opportunity
+
+[Analysis of how regulatory requirements impact:
+- Time to market
+- Development costs
+- Technical approach
+- Go-to-market strategy
+- Competitive positioning]
+
+## References
+
+1. [Full citation in {{CITATION_STYLE}} format]
+2. [Full citation in {{CITATION_STYLE}} format]
+3. [Full citation in {{CITATION_STYLE}} format]
+
+---
+
+**Cross-References**:
+- See also: `certification-pathways.md`
+- Related: `compliance-requirements.md`
+- Informs: `../04-certification/certification-pathway.md`

@@ -1,0 +1,75 @@
+# Task 01: Technical & Regulatory Landscape
+
+**Sprint**: {{SPRINT_ID}} - {{SPRINT_NAME}}
+**Skill**: technical-researcher
+**Parallel Subtasks**: 6
+**Date**: {{DATE}}
+
+## Objective
+
+Investigate the technical and regulatory landscape for this strategic opportunity. Identify all applicable regulations, technical standards, technology readiness, and compliance requirements.
+
+## Research Focus Areas
+
+### 1. Regulatory Framework
+- Identify governing bodies and applicable regulations
+- Research recent regulatory changes or proposed rules
+- Document certification requirements
+- Find regulatory precedents and case studies
+
+### 2. Technical Standards
+- Identify relevant industry standards (ISO, IEEE, ASTM, etc.)
+- Research standards compliance requirements
+- Document testing and validation standards
+- Identify certification labs and testing facilities
+
+### 3. Technology Assessment
+- Evaluate technology readiness level (TRL 1-9)
+- Identify key technical challenges and risks
+- Research enabling technologies and components
+- Document technology gaps and development needs
+
+### 4. Compliance Requirements
+- Map regulations to specific technical requirements
+- Identify mandatory certifications
+- Document testing and validation needs
+- Estimate compliance timeline and costs
+
+## Required Research Files
+
+Create the following files in `temp/sprint-{{SPRINT_ID}}/01-technical/`:
+
+1. **regulatory-framework.md** - Overview of applicable regulations
+2. **technical-standards.md** - Relevant standards and specifications
+3. **certification-pathways.md** - Certification routes and requirements
+4. **technology-readiness.md** - TRL assessment and technology gaps
+5. **compliance-requirements.md** - Detailed compliance criteria
+6. **testing-requirements.md** - Testing and validation needs
+
+## Quality Standards
+
+- Each file must include Executive Summary, Key Findings, Supporting Evidence, References
+- Minimum 500 words, maximum 5000 words per file
+- All claims must be cited using {{CITATION_STYLE}} format
+- Prioritize authoritative sources (regulations, standards documents, official publications)
+
+## Cross-References
+
+- Feed findings to **Task 04** (Certification & Testing Strategy)
+- Inform **Task 03** (Solution Architecture) of technical constraints
+- Provide **Task 05** (Implementation Roadmap) with timeline estimates
+
+## Execution
+
+Invoke skill:
+```
+technical-researcher skill with sprint context
+```
+
+## Success Criteria
+
+- [ ] 6 research files created
+- [ ] Citation coverage ≥ {{EVIDENCE_THRESHOLD}}
+- [ ] All files meet quality standards
+- [ ] Cross-references documented
+- [ ] Task marked complete in tracking

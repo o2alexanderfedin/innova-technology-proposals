@@ -1,0 +1,76 @@
+# Industry Terminology Glossary
+# Define consistent terminology for your project
+# Add industry-specific terms, acronyms, and preferred spellings
+
+# General Business Terms
+terms:
+  - term: "TAM"
+    full_name: "Total Addressable Market"
+    definition: "The total market demand for a product or service"
+    preferred_usage: "Use full name on first mention, then acronym"
+
+  - term: "SAM"
+    full_name: "Serviceable Addressable Market"
+    definition: "The segment of TAM targeted by your products and services which is within your geographical reach"
+    preferred_usage: "Use full name on first mention, then acronym"
+
+  - term: "SOM"
+    full_name: "Serviceable Obtainable Market"
+    definition: "The portion of SAM that you can realistically capture"
+    preferred_usage: "Use full name on first mention, then acronym"
+
+  - term: "CAGR"
+    full_name: "Compound Annual Growth Rate"
+    definition: "The mean annual growth rate of an investment over a specified period of time"
+    preferred_usage: "Use full name on first mention, then acronym"
+
+  - term: "MVP"
+    full_name: "Minimum Viable Product"
+    definition: "A version of a product with just enough features to be usable by early customers"
+    preferred_usage: "Use full name on first mention, then acronym"
+
+  - term: "ROI"
+    full_name: "Return on Investment"
+    definition: "A performance measure used to evaluate the efficiency of an investment"
+    preferred_usage: "Use full name on first mention, then acronym"
+
+# Technical Terms
+  - term: "TRL"
+    full_name: "Technology Readiness Level"
+    definition: "A measurement of technology maturity from 1 (basic research) to 9 (proven in operational environment)"
+    preferred_usage: "Use full name on first mention, then acronym"
+
+  - term: "API"
+    full_name: "Application Programming Interface"
+    definition: "A set of protocols and tools for building software applications"
+    preferred_usage: "Use acronym (widely understood)"
+
+# Add industry-specific terms below
+# Customize this section for your industry vertical
+
+# Example Pattern (Industry A - Technology Sector):
+#   - term: "Industry Standard ABC"
+#     full_name: "Advanced Business Certification Standard"
+#     definition: "Regulatory framework for product compliance in technology sector"
+#     preferred_usage: "Use full name on first mention, then acronym"
+
+# Example Pattern (Industry B - Service Sector):
+#   - term: "Compliance Framework XYZ"
+#     full_name: "Extended Yield Zones Compliance Framework"
+#     definition: "Industry regulation governing service delivery and data handling"
+#     preferred_usage: "Use acronym (widely understood)"
+
+# Example Pattern (Industry C - Manufacturing):
+#   - term: "Quality Standard QRS"
+#     full_name: "Quality Reliability Standard"
+#     definition: "Manufacturing quality assurance framework for critical components"
+#     preferred_usage: "Use full name on first mention, then acronym"
+
+# Consistency Rules
+consistency_rules:
+  - rule: "Use American English spelling throughout (e.g., 'analyze' not 'analyse')"
+  - rule: "Use Oxford comma in lists"
+  - rule: "Define all acronyms on first use in each document"
+  - rule: "Use active voice where possible"
+  - rule: "Prefer 'user' over 'customer' when referring to end users"
+  - rule: "Use '$ millions' or '$ billions' format for large numbers (e.g., '$50 million' not '$50M')"

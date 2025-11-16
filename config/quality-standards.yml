@@ -1,0 +1,41 @@
+# Quality Control Standards
+# Define quality assurance rules for research and reporting
+
+evidence:
+  citations_required: true                # Boolean, default: true - All claims must be cited
+  sources:                                # Array of acceptable source types
+    - "industry_regulations"              # Government/industry regulatory documents
+    - "academic_research"                 # Peer-reviewed journals, university research
+    - "market_reports"                    # Market research from reputable firms (Gartner, Forrester, IDC)
+    - "competitor_analysis"               # Public competitor information, filings, press releases
+    - "technical_documentation"           # Standards bodies (ISO, IEEE, ASTM), technical specifications
+    - "expert_interviews"                 # Subject matter expert interviews (with permission)
+    - "industry_publications"             # Trade journals, industry news outlets
+
+  minimum_citations_per_claim: 1         # Integer, minimum citations per major claim
+  citation_format: "inline"               # Enum: inline, footnote, endnote
+
+terminology:
+  consistency_check: true                 # Boolean, default: true - Validate consistent terminology
+  industry_glossary: "config/glossary.yml"  # String, path to glossary file
+  auto_suggest: true                      # Boolean, suggest corrections for inconsistent terms
+
+cross_references:
+  enabled: true                           # Boolean, default: true - Enable cross-reference validation
+  link_validation: true                   # Boolean, default: true - Validate all internal links resolve
+  broken_link_error: false                # Boolean, default: false - Treat broken links as error (vs warning)
+
+recommendations:
+  go_no_go_required: true                 # Boolean, default: true - Require explicit recommendation
+  scoring_rubric: "config/scoring-rubric.yml"  # String, path to scoring rubric
+  evidence_threshold: 0.8                 # Float, range: 0.0-1.0 - 80% of claims must be cited
+  synthesis_depth: "comprehensive"        # Enum: brief, standard, comprehensive
+
+file_standards:
+  minimum_word_count: 500                 # Integer, minimum words per research file
+  maximum_word_count: 5000                # Integer, maximum words per research file (encourages decomposition)
+  required_sections:                      # Array, sections required in each research file
+    - "Executive Summary"
+    - "Key Findings"
+    - "Supporting Evidence"
+    - "References"

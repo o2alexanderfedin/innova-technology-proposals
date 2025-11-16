@@ -1,0 +1,111 @@
+{
+  "project_name": "Strategic Research Project",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-').replace('_', '-') }}",
+  "project_desc": "Strategic opportunity analysis and research automation",
+  "company_name": "Your Company",
+  "client_name": "Client Name",
+  "industry": [
+    "technology",
+    "services",
+    "manufacturing",
+    "financial_services",
+    "healthcare",
+    "energy",
+    "retail",
+    "telecommunications",
+    "professional_services",
+    "other"
+  ],
+  "research_focus": [
+    "market_analysis",
+    "technology_assessment",
+    "due_diligence",
+    "competitive_intelligence",
+    "regulatory_compliance",
+    "strategic_partnerships",
+    "product_market_fit",
+    "market_entry",
+    "innovation_assessment",
+    "comprehensive"
+  ],
+  "_research_focus_descriptions": {
+    "market_analysis": "Market sizing, segmentation, trends, customer analysis",
+    "technology_assessment": "Technical feasibility, architecture, implementation roadmaps",
+    "due_diligence": "Investment evaluation, risk assessment, validation",
+    "competitive_intelligence": "Competitor analysis, market positioning, differentiation",
+    "regulatory_compliance": "Certification pathways, standards, testing requirements",
+    "strategic_partnerships": "Partnership opportunities, ecosystem mapping",
+    "product_market_fit": "Customer validation, feature prioritization, go-to-market",
+    "market_entry": "Entry strategy, localization, distribution channels",
+    "innovation_assessment": "Emerging technologies, disruption opportunities",
+    "comprehensive": "Full strategic analysis across all dimensions"
+  },
+  "output_format": [
+    "markdown",
+    "pdf",
+    "docx",
+    "all"
+  ],
+  "detail_level": [
+    "executive",
+    "detailed",
+    "comprehensive"
+  ],
+  "_detail_level_descriptions": {
+    "executive": "High-level summaries, key findings, recommendations (10-15 pages)",
+    "detailed": "In-depth analysis with supporting evidence (20-35 pages)",
+    "comprehensive": "Complete research files, full citations, all artifacts (40-60 pages)"
+  },
+  "min_files_per_sprint": 25,
+  "target_report_words": 6000,
+  "parallel_execution": "y",
+  "max_parallel_tasks": 6,
+  "use_autonomous_discovery": "y",
+  "evidence_citation_style": [
+    "apa",
+    "mla",
+    "chicago",
+    "ieee",
+    "harvard"
+  ],
+  "quality_threshold": [
+    "high",
+    "publication",
+    "consulting"
+  ],
+  "_quality_threshold_descriptions": {
+    "high": "Professional quality, suitable for internal use",
+    "publication": "Publication-ready, peer-review standards",
+    "consulting": "Consulting-grade, client deliverable quality"
+  },
+  "scoring_methodology": [
+    "weighted",
+    "framework",
+    "custom"
+  ],
+  "_scoring_methodology_descriptions": {
+    "weighted": "Simple weighted scoring (Strategic Fit, Market Size, Feasibility, etc.)",
+    "framework": "Multi-framework approach (SWOT, Porter's 5 Forces, etc.)",
+    "custom": "Custom rubric tailored to specific needs"
+  },
+  "author_name": "Your Name",
+  "author_email": "your.email@example.com",
+  "company_website": "",
+  "github_username": "",
+  "license": [
+    "MIT",
+    "Apache-2.0",
+    "BSD-3-Clause",
+    "Proprietary",
+    "CC-BY-4.0"
+  ],
+  "init_git": "y",
+  "init_git_flow": "n",
+  "create_example_context": "y",
+  "include_example_sprints": "y",
+  "_template_version": "2.0.0",
+  "_template_type": "strategic-research-automation",
+  "_extensions": [
+    "jinja2_time.TimeExtension"
+  ]
+}

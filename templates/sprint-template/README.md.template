@@ -1,0 +1,82 @@
+# Sprint {{SPRINT_ID}}: {{SPRINT_NAME}}
+
+**Project**: {{PROJECT_NAME}}
+**Company**: {{COMPANY_NAME}}
+**Client**: {{CLIENT_NAME}}
+**Industry**: {{INDUSTRY}}
+**Date**: {{DATE}}
+**Priority**: {{PRIORITY}}
+**Estimated Duration**: {{ESTIMATED_DURATION}}
+
+## Overview
+
+{{SPRINT_DESCRIPTION}}
+
+## Objectives
+
+1. Conduct comprehensive research across 6 key dimensions
+2. Generate minimum {{MINIMUM_FILE_COUNT}} research files
+3. Apply scoring rubric to evaluate opportunity
+4. Provide go/no-go recommendation with justification
+
+## Task Breakdown
+
+### Task 01: Technical & Regulatory Landscape
+**Skill**: technical-researcher
+**Parallel Subtasks**: 6
+**Focus**: Regulations, standards, technology feasibility, compliance requirements
+
+### Task 02: Market & Competitive Assessment
+**Skill**: market-analyst
+**Parallel Subtasks**: 5
+**Focus**: TAM/SAM/SOM, competitors, customers, market trends
+
+### Task 03: Solution Architecture Design
+**Skill**: solution-architect
+**Parallel Subtasks**: 6
+**Focus**: System design, components, technology stack, integration
+
+### Task 04: Certification & Testing Strategy
+**Skill**: compliance-analyst
+**Parallel Subtasks**: 5
+**Focus**: Certification pathways, testing requirements, compliance timeline
+
+### Task 05: Implementation Roadmap
+**Skill**: roadmap-planner
+**Parallel Subtasks**: 6
+**Focus**: Timeline, resources, risks, milestones, partnerships
+
+### Task 06: Final Report Synthesis
+**Skill**: report-synthesizer
+**Dependencies**: Tasks 01-05
+**Focus**: Comprehensive report, scoring, recommendation
+
+## Success Criteria
+
+- [ ] All 6 tasks completed
+- [ ] Minimum file count met ({{MINIMUM_FILE_COUNT}} files)
+- [ ] Citation coverage ≥ {{EVIDENCE_THRESHOLD}}
+- [ ] All cross-references validated
+- [ ] Final report generated
+- [ ] Opportunity scored (0-100)
+- [ ] Go/no-go recommendation provided
+
+## Directory Structure
+
+```
+temp/sprint-{{SPRINT_ID}}/
+├── 01-technical/           # Technical & regulatory research
+├── 02-market/              # Market & competitive analysis
+├── 03-architecture/        # Solution architecture design
+├── 04-certification/       # Certification & testing strategy
+├── 05-roadmap/             # Implementation roadmap
+└── 06-synthesis/           # Final report synthesis
+```
+
+## Output Deliverables
+
+- **Research Files**: temp/sprint-{{SPRINT_ID}}/ (all tasks)
+- **Final Report**: reports/sprint-{{SPRINT_ID}}-final-report.md
+- **Executive Summary**: reports/sprint-{{SPRINT_ID}}-executive-summary.md
+- **Scoring Breakdown**: reports/sprint-{{SPRINT_ID}}-scoring.md
+- **Recommendation**: reports/sprint-{{SPRINT_ID}}-recommendation.md

@@ -1,0 +1,29 @@
+# Project Configuration
+# Copy this to your project root and customize for your strategic research project
+
+project:
+  name: "{{PROJECT_NAME}}"                # String, required - Your project name
+  company: "{{COMPANY_NAME}}"             # String, required - Your company name
+  client: "{{CLIENT_NAME}}"               # String, required - Client name (or "Internal" for internal projects)
+  industry: "{{INDUSTRY}}"                # String, required (e.g., "Technology", "Services", "Manufacturing", "Healthcare")
+  analysis_type: "strategic_opportunity"  # Enum: strategic_opportunity, competitive_intelligence, market_entry, technology_assessment
+
+research:
+  parallel_execution: true                # Boolean, default: true - Enable parallel research task execution
+  max_parallel_tasks: 5                   # Integer, range: 1-16, default: CPU cores - Max concurrent research tasks
+  evidence_required: true                 # Boolean, default: true - All claims must be cited
+  citation_style: "APA"                   # Enum: APA, MLA, Chicago, IEEE - Citation format for references
+
+quality:
+  dual_audience: true                     # Boolean, default: true - Target both business and technical executives
+  minimum_file_count: 25                  # Integer, range: 10-100, default: 25 - Minimum research files per sprint
+  synthesis_required: true                # Boolean, default: true - Require synthesis in final report
+  scoring_enabled: true                   # Boolean, default: true - Enable opportunity scoring
+
+output:
+  temp_directory: "temp"                  # String, default: "temp" - Directory for research files
+  reports_directory: "reports"            # String, default: "reports" - Directory for final reports
+  export_formats:                         # Array of strings - Export formats
+    - "markdown"                          # Always included
+    - "pdf"                               # Optional (requires pandoc)
+    - "docx"                              # Optional (requires pandoc)

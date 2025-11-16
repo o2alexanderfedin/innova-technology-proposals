@@ -1,0 +1,48 @@
+# Sprint Definitions
+# Define all research sprints for this project
+# Each sprint follows the 6-task structure: Research, Market, Architecture, Certification, Roadmap, Synthesis
+
+sprints:
+  - id: "01"                              # String, format: two-digit number (01-99)
+    name: "Example Strategic Opportunity" # String, required, max 100 characters
+    description: "Brief description of what this sprint investigates"  # String, required, max 500 characters
+    priority: "high"                      # Enum: high, medium, low
+    estimated_duration: "5 days"          # String, freeform (e.g., "3-5 days", "1 week")
+    tasks:                                # Array, required, exactly 6 tasks
+      - id: "01"                          # String, format: two-digit number (01-06)
+        name: "Technical & Regulatory Landscape"  # String, required
+        skill: "technical-researcher"     # String, skill name to invoke
+        parallel_subtasks: 6              # Integer, number of parallel research files
+
+      - id: "02"
+        name: "Market & Competitive Assessment"
+        skill: "market-analyst"
+        parallel_subtasks: 5
+
+      - id: "03"
+        name: "Solution Architecture Design"
+        skill: "solution-architect"
+        parallel_subtasks: 6
+
+      - id: "04"
+        name: "Certification & Testing Strategy"
+        skill: "compliance-analyst"
+        parallel_subtasks: 5
+
+      - id: "05"
+        name: "Implementation Roadmap"
+        skill: "roadmap-planner"
+        parallel_subtasks: 6
+
+      - id: "06"
+        name: "Final Report Synthesis"
+        skill: "report-synthesizer"
+        depends_on: ["01", "02", "03", "04", "05"]  # Array, task dependencies
+
+  # Add more sprints as needed
+  # - id: "02"
+  #   name: "Second Opportunity Area"
+  #   description: "Investigation of alternative approach or market segment"
+  #   priority: "medium"
+  #   estimated_duration: "4 days"
+  #   tasks: [same 6-task structure as above]
