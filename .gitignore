@@ -1,6 +1,15 @@
 # User-generated directories (should not be in template)
 temp/
-reports/
+
+# Reports - exclude markdown but keep HTML/PDF/DOCX for GitHub Pages
+reports/*.md
+reports/exports/*.md
+!reports/*.html
+!reports/*.pdf
+!reports/*.docx
+!reports/exports/*.html
+!reports/exports/*.pdf
+!reports/exports/*.docx
 
 # Environment files
 .env
