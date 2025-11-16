@@ -39,9 +39,46 @@ sprints:
         skill: "report-synthesizer"
         depends_on: ["01", "02", "03", "04", "05"]  # Array, task dependencies
 
+  - id: "03"
+    name: "Financial Services AI Compliance"
+    description: "Regulatory-grade AI explainability and compliance for financial services"
+    priority: "medium"
+    status: "defined"
+    estimated_duration: "5 days"
+    tasks:
+      - id: "01"
+        name: "Technical & Regulatory Landscape"
+        skill: "technical-researcher"
+        parallel_subtasks: 6
+
+      - id: "02"
+        name: "Market & Competitive Assessment"
+        skill: "market-analyst"
+        parallel_subtasks: 5
+
+      - id: "03"
+        name: "Solution Architecture Design"
+        skill: "solution-architect"
+        parallel_subtasks: 6
+
+      - id: "04"
+        name: "Certification & Testing Strategy"
+        skill: "compliance-analyst"
+        parallel_subtasks: 5
+
+      - id: "05"
+        name: "Implementation Roadmap"
+        skill: "roadmap-planner"
+        parallel_subtasks: 6
+
+      - id: "06"
+        name: "Final Report Synthesis"
+        skill: "report-synthesizer"
+        depends_on: ["01", "02", "03", "04", "05"]
+
   # Add more sprints as needed
-  # - id: "02"
-  #   name: "Second Opportunity Area"
+  # - id: "04"
+  #   name: "Fourth Opportunity Area"
   #   description: "Investigation of alternative approach or market segment"
   #   priority: "medium"
   #   estimated_duration: "4 days"
